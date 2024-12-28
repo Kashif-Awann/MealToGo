@@ -19,6 +19,9 @@ export const Search = () => {
   return (
     <SearchContainer>
       <Searchbar
+        style={{
+          backgroundColor: "white",
+        }}
         placeholder="Search for a location"
         value={searchKeyword}
         onSubmitEditing={() => {

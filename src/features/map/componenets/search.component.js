@@ -27,9 +27,6 @@ export const Search = () => {
   return (
     <SearchContainer>
       <Searchbar
-        style={{
-          backgroundColor: "white",
-        }}
         icon="map"
         placeholder="Search for a location"
         value={searchKeyword}

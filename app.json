@@ -21,9 +21,7 @@
         "backgroundColor": "#ffffff"
       }
     },
-    "plugins": [
-      "expo-font"
-    ],
+    "plugins": ["expo-font"],
     "extra": {
       "eas": {
         "projectId": "afa51f7c-8a75-47e9-a933-da5b9d912bb0"

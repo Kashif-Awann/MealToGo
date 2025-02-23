@@ -3,7 +3,6 @@ import { Card } from "react-native-paper";
 
 export const RestaurantCard = styled(Card)`
   background-color: ${(props) => props.theme.colors.bg.primary};
-  border-radius: 0px;
 `;
 
 //  padding: ${(props) => props.theme.space[3]};

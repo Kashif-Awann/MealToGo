@@ -2,7 +2,9 @@ import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";
 import { ThemeProvider } from "styled-components/native";
 import { theme } from "./src/infrastructure/theme";
-import { initializeApp } from "firebase/app";
+import { initializeApp, getApps, getApp } from "firebase/app";
+import { getAuth, getReactNativePersistence } from "firebase/auth";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import {
   useFonts as useOswald,
@@ -23,7 +25,13 @@ const firebaseConfig = {
   appId: "1:1023292776248:web:2bd82535e3f7e56ab1abcd",
 };
 
-initializeApp(firebaseConfig);
+const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+
+// Get Auth instance (Prevents re-initialization)
+const auth = getAuth(app);
+
+// Set persistent auth state
+auth.setPersistence(getReactNativePersistence(AsyncStorage));
 
 export default function App() {
   const [oswaldLoaded] = useOswald({

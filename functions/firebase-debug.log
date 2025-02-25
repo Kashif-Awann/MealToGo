@@ -207,3 +207,40 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2025-02-25T04:15:04.487Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=close"}}
 [debug] [2025-02-25T04:15:04.487Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
 [debug] [2025-02-25T04:21:38.670Z] File D:\Code\React Native\MealToGo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\Code\\React Native\\MealToGo\\functions\\index.js changed, reloading triggers"}}
+[debug] [2025-02-25T04:21:39.684Z] Validating nodejs source
+[debug] [2025-02-25T04:21:43.896Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^12.6.0",
+    "firebase-functions": "^6.0.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2025-02-25T04:21:43.897Z] Building nodejs source
+[debug] [2025-02-25T04:21:43.897Z] Failed to find version of module node: reached end of search path D:\Code\React Native\MealToGo\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2025-02-25T04:21:43.901Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-02-25T04:21:43.917Z] Found firebase-functions binary at 'D:\Code\React Native\MealToGo\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8882
+
+[debug] [2025-02-25T04:21:44.986Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[info] +  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
+[debug] [2025-02-25T04:21:50.070Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
+[debug] [2025-02-25T04:21:50.070Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHING"}}
+[debug] [2025-02-25T04:21:50.115Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: exited"}}
+[debug] [2025-02-25T04:21:50.115Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHED"}}

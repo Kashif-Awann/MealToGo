@@ -1,32 +1,37 @@
-[debug] [2025-02-25T04:13:00.352Z] ----------------------------------------------------------------------
-[debug] [2025-02-25T04:13:00.358Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alumi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
-[debug] [2025-02-25T04:13:00.359Z] CLI Version:   13.31.2
-[debug] [2025-02-25T04:13:00.359Z] Platform:      win32
-[debug] [2025-02-25T04:13:00.359Z] Node Version:  v20.15.0
-[debug] [2025-02-25T04:13:00.360Z] Time:          Tue Feb 25 2025 09:13:00 GMT+0500 (Pakistan Standard Time)
-[debug] [2025-02-25T04:13:00.360Z] ----------------------------------------------------------------------
+[debug] [2025-02-25T10:58:09.255Z] ----------------------------------------------------------------------
+[debug] [2025-02-25T10:58:09.261Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\alumi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2025-02-25T10:58:09.262Z] CLI Version:   13.31.2
+[debug] [2025-02-25T10:58:09.263Z] Platform:      win32
+[debug] [2025-02-25T10:58:09.263Z] Node Version:  v20.15.0
+[debug] [2025-02-25T10:58:09.264Z] Time:          Tue Feb 25 2025 15:58:09 GMT+0500 (Pakistan Standard Time)
+[debug] [2025-02-25T10:58:09.264Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-02-25T04:13:00.924Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-02-25T04:13:00.925Z] > authorizing via signed-in user (123kinggaming123@gmail.com)
+[debug] [2025-02-25T10:58:09.817Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-25T10:58:09.818Z] > authorizing via signed-in user (123kinggaming123@gmail.com)
 [info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
-[debug] [2025-02-25T04:13:00.965Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-02-25T04:13:00.966Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2025-02-25T04:13:00.976Z] [hub] writing locator at C:\Users\alumi\AppData\Local\Temp\hub-mealtogo-3baa1.json
-[debug] [2025-02-25T04:13:01.035Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-02-25T04:13:01.036Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-02-25T04:13:01.036Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2025-02-25T04:13:01.037Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2025-02-25T10:58:09.856Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-02-25T10:58:09.857Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-02-25T10:58:09.868Z] [hub] writing locator at C:\Users\alumi\AppData\Local\Temp\hub-mealtogo-3baa1.json
+[debug] [2025-02-25T10:58:09.928Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-02-25T10:58:09.929Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-02-25T10:58:09.929Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-02-25T10:58:09.929Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
-[debug] [2025-02-25T04:13:01.042Z] defaultcredentials: writing to file C:\Users\alumi\AppData\Roaming\firebase\123kinggaming123_gmail_com_application_default_credentials.json
-[debug] [2025-02-25T04:13:01.050Z] Setting GAC to C:\Users\alumi\AppData\Roaming\firebase\123kinggaming123_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\alumi\\AppData\\Roaming\\firebase\\123kinggaming123_gmail_com_application_default_credentials.json"}}
-[debug] [2025-02-25T04:13:01.054Z] Checked if tokens are valid: true, expires at: 1740459384122
-[debug] [2025-02-25T04:13:01.055Z] Checked if tokens are valid: true, expires at: 1740459384122
-[debug] [2025-02-25T04:13:01.057Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mealtogo-3baa1/adminSdkConfig [none]
-[debug] [2025-02-25T04:13:01.808Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mealtogo-3baa1/adminSdkConfig 200
-[debug] [2025-02-25T04:13:01.809Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mealtogo-3baa1/adminSdkConfig {"projectId":"mealtogo-3baa1","storageBucket":"mealtogo-3baa1.firebasestorage.app"}
+[debug] [2025-02-25T10:58:09.937Z] defaultcredentials: writing to file C:\Users\alumi\AppData\Roaming\firebase\123kinggaming123_gmail_com_application_default_credentials.json
+[debug] [2025-02-25T10:58:09.944Z] Setting GAC to C:\Users\alumi\AppData\Roaming\firebase\123kinggaming123_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\alumi\\AppData\\Roaming\\firebase\\123kinggaming123_gmail_com_application_default_credentials.json"}}
+[debug] [2025-02-25T10:58:09.946Z] Checked if tokens are valid: false, expires at: 1740462246256
+[debug] [2025-02-25T10:58:09.947Z] Checked if tokens are valid: false, expires at: 1740462246256
+[debug] [2025-02-25T10:58:09.948Z] > refreshing access token with scopes: []
+[debug] [2025-02-25T10:58:09.954Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-02-25T10:58:09.955Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-25T10:58:10.746Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-02-25T10:58:10.747Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-25T10:58:10.839Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mealtogo-3baa1/adminSdkConfig [none]
+[debug] [2025-02-25T10:58:11.823Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mealtogo-3baa1/adminSdkConfig 200
+[debug] [2025-02-25T10:58:11.824Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mealtogo-3baa1/adminSdkConfig {"projectId":"mealtogo-3baa1","storageBucket":"mealtogo-3baa1.firebasestorage.app"}
 [info] i  functions: Watching "D:\Code\React Native\MealToGo\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Code\\React Native\\MealToGo\\functions\" for Cloud Functions..."}}
-[debug] [2025-02-25T04:13:01.986Z] Validating nodejs source
-[debug] [2025-02-25T04:13:04.943Z] > [functions] package.json contents: {
+[debug] [2025-02-25T10:58:11.967Z] Validating nodejs source
+[debug] [2025-02-25T10:58:15.481Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -49,198 +54,8 @@
   },
   "private": true
 }
-[debug] [2025-02-25T04:13:04.944Z] Building nodejs source
-[debug] [2025-02-25T04:13:04.945Z] Failed to find version of module node: reached end of search path D:\Code\React Native\MealToGo\functions\node_modules
+[debug] [2025-02-25T10:58:15.482Z] Building nodejs source
+[debug] [2025-02-25T10:58:15.483Z] Failed to find version of module node: reached end of search path D:\Code\React Native\MealToGo\functions\node_modules
 [info] +  functions: Using node@20 from host. 
-[debug] [2025-02-25T04:13:04.950Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-02-25T04:13:04.966Z] Found firebase-functions binary at 'D:\Code\React Native\MealToGo\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8707
-
-[debug] [2025-02-25T04:13:06.002Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[info] +  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
-[info] +  functions[us-central1-helloWorld]: http function initialized (http://127.0.0.1:5001/mealtogo-3baa1/us-central1/helloWorld). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/mealtogo-3baa1/us-central1/helloWorld)."}}
-[debug] [2025-02-25T04:13:11.170Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
-[info] 
-┌─────────────────────────────────────────────────────────────┐
-│ ✔  All emulators ready! It is now safe to connect your app. │
-│ i  View Emulator UI at http://127.0.0.1:4000/               │
-└─────────────────────────────────────────────────────────────┘
-
-┌───────────┬────────────────┬─────────────────────────────────┐
-│ Emulator  │ Host:Port      │ View in Emulator UI             │
-├───────────┼────────────────┼─────────────────────────────────┤
-│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
-└───────────┴────────────────┴─────────────────────────────────┘
-  Emulator Hub running at 127.0.0.1:4400
-  Other reserved ports: 4500
-
-Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
- 
-[debug] [2025-02-25T04:14:04.468Z] [work-queue] {"queuedWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:04.467Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2025-02-25T04:14:04.469Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:04.467Z"],"workRunningCount":1}
-[debug] [2025-02-25T04:14:04.470Z] Accepted request GET /mealtogo-3baa1/us-central1/helloWorld --> us-central1-helloWorld
-[debug] [2025-02-25T04:14:04.472Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2025-02-25T04:14:04.474Z] [functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/"}}
-[debug] [2025-02-25T04:14:04.509Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
-[debug] [2025-02-25T04:14:04.512Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
-[debug] [2025-02-25T04:14:07.969Z] [runtime-status] [8460] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2025-02-25T04:14:07.972Z] [runtime-status] [8460] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:14:07.973Z] [runtime-status] [8460] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2025-02-25T04:14:07.975Z] [runtime-status] [8460] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:14:10.799Z] [runtime-status] [8460] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Checked functions.config() {\"config\":{}}"}}
-[debug] [2025-02-25T04:14:10.801Z] [runtime-status] [8460] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
-[debug] [2025-02-25T04:14:10.805Z] [runtime-status] [8460] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:14:10.864Z] [runtime-status] [8460] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2025-02-25T04:14:10.931Z] [runtime-status] [8460] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:14:10.933Z] [runtime-status] [8460] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
-[debug] [2025-02-25T04:14:10.970Z] [runtime-status] [8460] Functions runtime initialized. {"cwd":"D:\\Code\\React Native\\MealToGo\\functions","node_version":"20.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Functions runtime initialized. {\"cwd\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\",\"node_version\":\"20.15.0\"}"}}
-[debug] [2025-02-25T04:14:10.973Z] [runtime-status] [8460] Listening to port: \\?\pipe\fire_emu_fee577d44ad83fc3 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [8460] Listening to port: \\\\?\\pipe\\fire_emu_fee577d44ad83fc3"}}
-[debug] [2025-02-25T04:14:11.070Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE"}}
-[debug] [2025-02-25T04:14:11.071Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
-[info] i  functions: Beginning execution of "us-central1-helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"us-central1-helloWorld\""}}
-[debug] [2025-02-25T04:14:11.075Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: BUSY"}}
-[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
-[debug] [2025-02-25T04:14:11.095Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-helloWorld" in 21.6225ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"us-central1-helloWorld\" in 21.6225ms"}}
-[debug] [2025-02-25T04:14:11.099Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE"}}
-[debug] [2025-02-25T04:14:11.100Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2025-02-25T04:14:11.101Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2025-02-25T04:14:11.101Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2025-02-25T04:14:11.289Z] Functions emulator received unknown request at path /favicon.ico
-[debug] [2025-02-25T04:14:29.557Z] File D:\Code\React Native\MealToGo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\Code\\React Native\\MealToGo\\functions\\index.js changed, reloading triggers"}}
-[debug] [2025-02-25T04:14:30.632Z] Validating nodejs source
-[debug] [2025-02-25T04:14:33.429Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "20"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^12.6.0",
-    "firebase-functions": "^6.0.1"
-  },
-  "devDependencies": {
-    "firebase-functions-test": "^3.1.0"
-  },
-  "private": true
-}
-[debug] [2025-02-25T04:14:33.430Z] Building nodejs source
-[debug] [2025-02-25T04:14:33.430Z] Failed to find version of module node: reached end of search path D:\Code\React Native\MealToGo\functions\node_modules
-[info] +  functions: Using node@20 from host. 
-[debug] [2025-02-25T04:14:33.434Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-02-25T04:14:33.448Z] Found firebase-functions binary at 'D:\Code\React Native\MealToGo\functions\node_modules\.bin\firebase-functions'
-[debug] [2025-02-25T04:14:33.927Z] [work-queue] {"queuedWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:33.927Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2025-02-25T04:14:33.928Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:33.927Z"],"workRunningCount":1}
-[debug] [2025-02-25T04:14:33.928Z] Accepted request GET /mealtogo-3baa1/us-central1/helloWorld --> us-central1-helloWorld
-[debug] [2025-02-25T04:14:33.929Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2025-02-25T04:14:33.930Z] [functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/"}}
-[debug] [2025-02-25T04:14:33.930Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
-[info] i  functions: Beginning execution of "us-central1-helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"us-central1-helloWorld\""}}
-[debug] [2025-02-25T04:14:33.939Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: BUSY"}}
-[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
-[debug] [2025-02-25T04:14:33.956Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-helloWorld" in 17.5448ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"us-central1-helloWorld\" in 17.5448ms"}}
-[debug] [2025-02-25T04:14:33.959Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE"}}
-[debug] [2025-02-25T04:14:33.960Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2025-02-25T04:14:33.961Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2025-02-25T04:14:33.962Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[info] Serving at port 8621
-
-[debug] [2025-02-25T04:14:34.642Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[debug] [2025-02-25T04:14:38.340Z] [work-queue] {"queuedWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:38.339Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2025-02-25T04:14:38.340Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:38.339Z"],"workRunningCount":1}
-[debug] [2025-02-25T04:14:38.340Z] Accepted request GET /mealtogo-3baa1/us-central1/helloWorld --> us-central1-helloWorld
-[debug] [2025-02-25T04:14:38.341Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2025-02-25T04:14:38.342Z] [functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/"}}
-[debug] [2025-02-25T04:14:38.342Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
-[info] i  functions: Beginning execution of "us-central1-helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"us-central1-helloWorld\""}}
-[debug] [2025-02-25T04:14:38.345Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: BUSY"}}
-[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
-[debug] [2025-02-25T04:14:38.354Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-helloWorld" in 9.4794ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"us-central1-helloWorld\" in 9.4794ms"}}
-[debug] [2025-02-25T04:14:38.356Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: IDLE"}}
-[debug] [2025-02-25T04:14:38.356Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2025-02-25T04:14:38.356Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2025-02-25T04:14:38.357Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[info] +  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
-[debug] [2025-02-25T04:14:39.702Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
-[debug] [2025-02-25T04:14:39.703Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: FINISHING"}}
-[debug] [2025-02-25T04:14:39.727Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: exited"}}
-[debug] [2025-02-25T04:14:39.728Z] [worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-96ec3e5e-f2bf-44d5-9c7c-a80d98bd8ad0]: FINISHED"}}
-[debug] [2025-02-25T04:14:59.557Z] [work-queue] {"queuedWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:59.557Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
-[debug] [2025-02-25T04:14:59.557Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mealtogo-3baa1/us-central1/helloWorld-2025-02-25T04:14:59.557Z"],"workRunningCount":1}
-[debug] [2025-02-25T04:14:59.557Z] Accepted request GET /mealtogo-3baa1/us-central1/helloWorld --> us-central1-helloWorld
-[debug] [2025-02-25T04:14:59.558Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2025-02-25T04:14:59.559Z] [functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealtogo-3baa1/us-central1/helloWorld, mapping to path=/"}}
-[debug] [2025-02-25T04:14:59.559Z] [worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-helloWorld: 1 --> 0"}}
-[debug] [2025-02-25T04:14:59.572Z] [worker-pool] addWorker(us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-helloWorld)"}}
-[debug] [2025-02-25T04:14:59.573Z] [worker-pool] Adding worker with key us-central1-helloWorld, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-helloWorld, total=1"}}
-[debug] [2025-02-25T04:15:03.600Z] [runtime-status] [11824] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2025-02-25T04:15:03.604Z] [runtime-status] [11824] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:15:03.605Z] [runtime-status] [11824] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2025-02-25T04:15:03.607Z] [runtime-status] [11824] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:15:04.326Z] [runtime-status] [11824] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Checked functions.config() {\"config\":{}}"}}
-[debug] [2025-02-25T04:15:04.327Z] [runtime-status] [11824] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}}"}}
-[debug] [2025-02-25T04:15:04.329Z] [runtime-status] [11824] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:15:04.341Z] [runtime-status] [11824] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
-[debug] [2025-02-25T04:15:04.350Z] [runtime-status] [11824] Resolved module firebase-functions {"declared":true,"installed":true,"version":"6.3.2","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-functions\\lib\\v2\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"6.3.2\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v2\\\\index.js\"}"}}
-[debug] [2025-02-25T04:15:04.350Z] [runtime-status] [11824] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"D:\\Code\\React Native\\MealToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
-[debug] [2025-02-25T04:15:04.366Z] [runtime-status] [11824] Functions runtime initialized. {"cwd":"D:\\Code\\React Native\\MealToGo\\functions","node_version":"20.15.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Functions runtime initialized. {\"cwd\":\"D:\\\\Code\\\\React Native\\\\MealToGo\\\\functions\",\"node_version\":\"20.15.0\"}"}}
-[debug] [2025-02-25T04:15:04.367Z] [runtime-status] [11824] Listening to port: \\?\pipe\fire_emu_e0f138bd20985c7f {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[runtime-status] [11824] Listening to port: \\\\?\\pipe\\fire_emu_e0f138bd20985c7f"}}
-[debug] [2025-02-25T04:15:04.418Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: IDLE"}}
-[debug] [2025-02-25T04:15:04.419Z] [worker-pool] submitRequest(triggerId=us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-helloWorld)"}}
-[info] i  functions: Beginning execution of "us-central1-helloWorld" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Beginning execution of \"us-central1-helloWorld\""}}
-[debug] [2025-02-25T04:15:04.421Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: BUSY"}}
-[info] >  {"structuredData":true,"severity":"INFO","message":"Hello logs!"} {"user":{"structuredData":true,"severity":"INFO","message":"Hello logs!"},"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"\u001b[90m> \u001b[39m {\"structuredData\":true,\"severity\":\"INFO\",\"message\":\"Hello logs!\"}"}}
-[debug] [2025-02-25T04:15:04.479Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=pause"}}
-[info] i  functions: Finished "us-central1-helloWorld" in 59.9791ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finished \"us-central1-helloWorld\" in 59.9791ms"}}
-[debug] [2025-02-25T04:15:04.485Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: IDLE"}}
-[debug] [2025-02-25T04:15:04.486Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=finish"}}
-[debug] [2025-02-25T04:15:04.487Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"Finishing up request with event=close"}}
-[debug] [2025-02-25T04:15:04.487Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
-[debug] [2025-02-25T04:21:38.670Z] File D:\Code\React Native\MealToGo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File D:\\Code\\React Native\\MealToGo\\functions\\index.js changed, reloading triggers"}}
-[debug] [2025-02-25T04:21:39.684Z] Validating nodejs source
-[debug] [2025-02-25T04:21:43.896Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "20"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^12.6.0",
-    "firebase-functions": "^6.0.1"
-  },
-  "devDependencies": {
-    "firebase-functions-test": "^3.1.0"
-  },
-  "private": true
-}
-[debug] [2025-02-25T04:21:43.897Z] Building nodejs source
-[debug] [2025-02-25T04:21:43.897Z] Failed to find version of module node: reached end of search path D:\Code\React Native\MealToGo\functions\node_modules
-[info] +  functions: Using node@20 from host. 
-[debug] [2025-02-25T04:21:43.901Z] Could not find functions.yaml. Must use http discovery
-[debug] [2025-02-25T04:21:43.917Z] Found firebase-functions binary at 'D:\Code\React Native\MealToGo\functions\node_modules\.bin\firebase-functions'
-[info] Serving at port 8882
-
-[debug] [2025-02-25T04:21:44.986Z] Got response from /__/functions.yaml {"endpoints":{"helloWorld":{"availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","labels":{},"httpsTrigger":{},"entryPoint":"helloWorld"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
-[info] +  functions: Loaded functions definitions from source: helloWorld. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: helloWorld."}}
-[debug] [2025-02-25T04:21:50.070Z] [worker-pool] Shutting down IDLE worker (us-central1-helloWorld) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-helloWorld)"}}
-[debug] [2025-02-25T04:21:50.070Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHING"}}
-[debug] [2025-02-25T04:21:50.115Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: exited"}}
-[debug] [2025-02-25T04:21:50.115Z] [worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-helloWorld"},"extension":{},"message":"[worker-us-central1-helloWorld-97297a5d-df69-49fd-b8c1-03db24ec5d0f]: FINISHED"}}
+[debug] [2025-02-25T10:58:15.488Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-02-25T10:58:15.503Z] Found firebase-functions binary at 'D:\Code\React Native\MealToGo\functions\node_modules\.bin\firebase-functions'
